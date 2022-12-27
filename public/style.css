@@ -1,0 +1,17 @@
+.hdr{
+    padding: 5rem;
+    text-align: center;
+    background-color: ghostwhite;
+    margin: 4rem;
+}
+.form{
+    margin-top: 5rem;
+    padding: 2rem;
+    border: 2px solid black;
+}
+.contacts{
+   margin-top: 6rem;  
+}
+.size-img{
+    width: 40%;
+}
