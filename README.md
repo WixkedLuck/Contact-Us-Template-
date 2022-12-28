@@ -9,7 +9,7 @@ A template created for any contact page
  * [Site](#site)
 
 # Description
-- This is a contact page template meant for react-routes or any other multi-page site. You will need to incorporate a navbar and footer if applicable as well as add your own api key and ignore files. Feel free to change colors and fonts! dev comments are in code.  
+- This is a contact page template meant for react-routes or any other multi-page site. You will need to incorporate a navbar and footer if applicable as well as add your own google map and ignore files. Feel free to change colors and fonts! dev comments are in code. Mobile friendly first with media screen!  
 
 
 
@@ -35,4 +35,4 @@ The purpose of this project is to have an easy to use template for contact pages
 # Site
 https://wixkedluck.github.io/Contact-Us-Template-/
 
-
+![Mobile-friendly](./public/images/mobile-first.jpg)
