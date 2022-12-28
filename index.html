@@ -18,8 +18,10 @@
                 <form class="form">
                     <h2 class="text-center">Contact us</h2>
                     <p class="text-center">For all inquiries, please email us using this form</p>
-                    <input class="form-control" type="text" id="name" required placeholder="Name"> </br>
-                    <input class="form-control" type="email" id="email" required placeholder="Email"> </br>
+                    <label class="form-label text-start" for="name">Name</label>
+                    <input class="form-control" type="text" id="name" required> </br>
+                    <label class="form-label text-start" for="email">Email</label>
+                    <input class="form-control" type="email" id="email" required> </br>
                     <label class="form-label text-start" for="submit">Message</label>
                     <textarea class="form-control" id="comments"></textarea></br>
 
@@ -35,16 +37,17 @@
                 <h3>Contact</h3>
                 <a href="mailto: abc@example.com">Email@email.com</a>
                 <p>(804) 568 2345</p>
-                <!-- delete image and implement api -->
-                <image src="./public/images/map.png" class="size-img"></image>
-                <p>(google maps API goes here)</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429162.37497580197!2d-117.68334230700862!3d32.823241113973154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95495497f80c9%3A0x5df0f4372635e247!2sSan%20Diego%20Zoo!5e0!3m2!1sen!2sus!4v1672203179776!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
     <div class="hdr">
         <!-- use the button below to link back a page or go home -->
-        <h1 >Grow your business.</h1>
-        <button type="button" class="btn btn-secondary">Secondary</button>
+        <h1>Grow your business.</h1>
+        <button type="button" class="btn btn-secondary">Home</button>
     </div>
 
 
